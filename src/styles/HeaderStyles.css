@@ -1,0 +1,80 @@
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation-menu{
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-menu li {
+
+    margin:0px 20px ;
+}
+
+.navigation-menu li a {
+
+    text-decoration: none;
+    color: white;
+ 
+}
+.websiteViewLogo{
+   
+    color: goldenrod;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+
+}
+.websiteViewLogo:hover{
+
+    color: green;
+    transition: all 0.2s;
+   
+}
+
+.active{
+
+    color: goldenrod !important;
+}
+
+
+
+/* // Mobile - view */
+
+.mobile-navigation{
+
+    list-style: none;
+}
+
+.mobile-navigation li{
+
+  margin-top: 20px;
+}
+.mobile-navigation li a {
+
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+.MobileViewLogo{
+
+    color: goldenrod;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.MobileViewLogo:hover{
+
+    color: green;
+    transition: all 0.3s;
+   
+}
